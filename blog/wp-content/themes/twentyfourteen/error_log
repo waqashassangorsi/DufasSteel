@@ -1,0 +1,1 @@
+[04-Mar-2017 10:27:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/dufassteel/public_html/blog/wp-content/themes/twentyfourteen/404.php on line 10

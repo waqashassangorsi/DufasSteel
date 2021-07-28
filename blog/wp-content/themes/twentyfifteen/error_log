@@ -1,0 +1,2 @@
+[04-Mar-2017 00:21:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/dufassteel/public_html/blog/wp-content/themes/twentyfifteen/404.php on line 10
+[04-Mar-2017 05:38:15 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/dufassteel/public_html/blog/wp-content/themes/twentyfifteen/functions.php on line 41

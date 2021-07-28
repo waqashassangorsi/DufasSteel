@@ -1,0 +1,1 @@
+[27-Feb-2017 16:51:43 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/dufassteel/public_html/blog/wp-content/plugins/hello.php on line 60

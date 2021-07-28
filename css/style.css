@@ -1,0 +1,750 @@
+@charset "utf-8";
+/* Dufas */
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadPro-Regular/myriadpro-regular.eot');
+    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular/myriadpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Regular/myriadpro-regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular/myriadpro-regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular/myriadpro-regular.svg#MyriadProRegular') format('svg');
+}
+/*====================================================Header=========================================================*/
+body{
+	margin:0px;
+}
+.wrapper{
+	width:1252px;
+	margin:0 auto;
+}
+.header{
+	float:left;
+	width:1252px;
+}
+.logo{
+	float:left;
+	margin-top:16px;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+.menu_bg{
+	background-color:#707070;
+	float:left;
+	margin-top:15px;
+	width:1252px;
+}
+	
+.main_menu{
+	float:left;
+	width:700px;
+	
+	height:36px;
+	background-color:#707070;
+}
+
+.main_menu ul{
+	padding:0;
+	margin:0;
+}
+
+.main_menu ul li{
+	list-style:none;
+	line-height:36px;
+	display:inline-block;
+}
+.main_menu ul li a{
+	font-size:19px;
+	text-decoration:none;
+	padding:6px 29px;
+	font-family: 'MyriadProRegular';
+	color:white;
+}
+.main_menu ul li a:hover{
+	background-color:#313131;
+	 transition: color 850ms ease 0s !important;
+}
+.social_icons {
+    background-color: #313131;
+    float: right;
+    height: 35px;
+    width: 101px;
+}
+.social_icons ul li{
+	list-style:none;
+	display:inline-block;
+}
+.social_icons
+img{
+	margin-right:-13px !important;
+	margin-top:4px;
+	margin-left:11px;
+}
+.msg_icon {
+    float: right;
+    margin-right: 13px;
+    margin-top: 5px;
+}
+/*====================================================contetn bo0ttom bg=========================================================*/
+.content_bottombg{
+	width:100%;
+	background: url(../images/bg.png) center top no-repeat;
+	margin-top:9px;
+	float:left;
+}
+.welcome_sec{
+	float:left;
+	width:1230px;
+	margin-top:12px;
+}
+.welcome_sec
+h1{
+	font-size:38px;
+	text-align:center;
+	margin:0;
+	font-weight:normal;
+	font-family: 'MyriadProRegular';
+	color:white;
+}
+.welcome_sec
+p{
+	font-size:16px;
+	margin:0;
+	font-family: 'MyriadProRegular';
+	color:white;
+}
+.products{
+	float:left;
+	width:1252px;
+	margin-top:35px;
+}
+.product1{
+	float:left;
+	width:410px;
+	height:427px;
+	background:url("../images/product2.png") no-repeat scroll 1% 18% rgba(0, 0, 0, 0);
+}
+.product1
+h1{
+	font-size:40px;
+	font-family: 'MyriadProRegular';
+	font-weight:bold;
+	margin:0;
+	text-transform:uppercase;
+	padding-top:17px;
+	padding-left:15px;
+	color:white;
+}
+.product1 ul li{
+	list-style:none;
+	font-size:22px;
+	padding-left:20px;
+	line-height:33px;
+	color:white;
+	font-family: 'MyriadProRegular';
+	
+}
+#arrow{
+	background:url("../images/arrow3.png") no-repeat scroll 1% 56% rgba(0, 0, 0, 0);
+}
+.product2{
+	float:left;
+	width:410px;
+	margin-left:8px;
+	height:427px;
+	background:url("../images/productss.png") no-repeat scroll 1% 18% rgba(0, 0, 0, 0);
+}
+.product2
+h1{
+	font-size:40px;
+	font-family: 'MyriadProRegular';
+	font-weight:bold;
+	margin:0;
+	text-transform:uppercase;
+	padding-top:17px;
+	padding-left:15px;
+	color:white;
+}
+.product3{
+	float:left;
+	width:410px;
+	margin-left:12px;
+	height:427px;
+	background:url("../images/product3.png") no-repeat scroll 1% 18% rgba(0, 0, 0, 0);
+}
+.product3
+h1{
+	font-size:40px;
+	font-family: 'MyriadProRegular';
+	font-weight:bold;
+	margin:0;
+	text-transform:uppercase;
+	padding-top:17px;
+	padding-left:15px;
+	color:white;
+}
+.product4{
+	float:left;
+	width:615px;
+	height:432px;
+	margin-top:9px;
+	background:url("../images/product4.png") no-repeat scroll 1% 18% rgba(0, 0, 0, 0);
+}
+.product4
+h1{
+	font-size:40px;
+	font-family: 'MyriadProRegular';
+	font-weight:bold;
+	margin:0;
+	text-transform:uppercase;
+	padding-top:17px;
+	padding-left:15px;
+	color:white;
+}
+.product5{
+	float:left;
+	width:615px;
+	height:432px;
+	margin-top:9px;
+	margin-left:19px;
+	background:url("../images/product5.png") no-repeat scroll 1% 18% rgba(0, 0, 0, 0);
+}
+.product5
+h1{
+	font-size:40px;
+	font-family: 'MyriadProRegular';
+	font-weight:bold;
+	margin:0;
+	text-transform:uppercase;
+	padding-top:17px;
+	padding-left:15px;
+	color:white;
+}
+.latestnews_sec{
+	float:left;
+	margin-top:12px;
+	width:1252px;
+}
+.latest_newsbg{
+	float:left;
+	width:1252px;
+	background-color:#ed2b0b;
+}
+.latest_newsbg
+h1{
+	font-size:46px;
+	font-family: 'MyriadProRegular';
+	font-weight:bold;
+	margin:0;
+	text-transform:uppercase;
+	text-align:center;
+	color:white;
+}
+.desp{
+	float:left;
+	margin-top:13px;
+	margin-left:32px;
+	width:262px;
+}
+.desp
+p{
+	font-size:14px;
+	font-family: 'MyriadProRegular';
+	color:#3c3d3d;
+}
+.more{
+	float:left;
+	width:118px;
+	text-align:center;
+	margin-left:47px;
+	background-color:#ed2b0b;
+}
+.more
+a{
+	text-decoration:none;
+	font-size:23px;
+	font-family: 'MyriadProRegular';
+	color:white;
+}
+.more
+a:hover{
+	color:#3c3d3d;
+	 transition: color 850ms ease 0s !important;
+}
+.border_dashed{
+	float:left;
+	margin-left:17px;
+	height:172px;
+	border-left:1px dashed #d5d5d5;
+	width:1px;
+}
+.footer_menu{
+	width:1000px;
+	float:left;
+	height:53px;
+	margin-bottom:12px;
+	margin-left:170px;
+	background: #d9d9d9; /* Old browsers */
+background: -moz-linear-gradient(top,  #d9d9d9 0%, #d9d9d9 13%, #ffffff 70%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9d9d9), color-stop(13%,#d9d9d9), color-stop(70%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d9d9d9 0%,#d9d9d9 13%,#ffffff 70%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d9d9d9 0%,#d9d9d9 13%,#ffffff 70%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d9d9d9 0%,#d9d9d9 13%,#ffffff 70%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d9d9d9 0%,#d9d9d9 13%,#ffffff 70%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	margin-top:24px;
+}
+.footer_menu ul{
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.footer_menu ul li{
+	list-style:none;
+	line-height:53px;
+	display:inline-block;
+}
+.footer_menu ul li a{
+	text-decoration:none;
+	font-size:25px;
+	padding:7px 25px !important;
+	font-family: 'MyriadProRegular';
+	color:#010101;
+}
+#arrow1{
+	background:url("../images/arrow1.png") no-repeat scroll 1% 68% rgba(0, 0, 0, 0);
+}
+.footer_menu ul li a:hover{
+	color:red;
+	 transition: color 850ms ease 0s !important;
+}
+/*====================================================Footer bg=========================================================*/
+.footer_bg{
+	width:100%;
+	float:left;
+	height:61px;
+	border-top:1px dashed #010101;
+	background-color:#999999;
+}
+.contatct_person{
+	float:right;
+	margin-right:78px;
+}
+.contatct_person
+h1{
+	font-size:24px;
+	margin:0;
+	font-family: 'MyriadProRegular';
+	color:#ffffff;
+}
+.contatct_person
+p{
+	font-size:20px;
+	margin:0;
+	font-family: tahoma;
+	color:#ffffff;
+}
+.footer_area{
+	float:left;
+	width:1252px;
+	margin-top:27px;
+}
+.office_det{
+	float:left;
+	margin-left:43px;
+	width:247px;
+}
+.office_det
+h1{
+	font-size:22px;
+	margin:0;
+	font-weight:bold;
+	border-bottom:1px dashed #d5d5d5; 
+	font-family: 'MyriadProRegular';
+	color:#585858;
+}
+.office_det
+p{
+	font-size:21px;
+	font-family: 'MyriadProRegular';
+	color:#585858;
+}
+.phone_det{
+	float:left;
+	margin-left:82px;
+	width:247px;
+}
+.phone_det
+h1{
+	font-size:22px;
+	margin:0;
+	font-weight:bold;
+	font-family: 'MyriadProRegular';
+	color:#585858;
+}
+.phone_det
+p{
+	font-size:21px;
+	margin:0;
+	font-family: 'MyriadProRegular';
+	color:#585858;
+}
+.footer_border{
+	float:left;
+	height:168px;
+	margin-left:12px;
+	border-left:1px dashed #010101;
+}
+.copyright_bg{
+	width:100%;
+	float:left;
+	height:65px;
+	margin-top:12px;
+	background-color:#7f7f7f;
+}
+.copyright_sec{
+	float:left;
+	margin-top:2px;
+}
+.copyright_sec
+p{
+	font-size:19px;
+	font-family: 'MyriadProRegular';
+	color:white;
+}
+.footer_msg{
+	float:right;
+	margin-top:20px;
+}
+.footer_email {
+    float: right;
+    margin-right: 18px;
+    margin-top: 3px;
+}
+.footer_email
+p{
+	font-size:19px;
+	font-family: 'MyriadProRegular';
+	color:white;
+}
+/*====================================================Inner page=========================================================*/
+.inner_page{
+	float:left;
+	border:1px solid #d5d5d5;
+	box-shadow:4px 8px 23px -8px #2e3349;
+	margin-top:12px;
+	width:1252px;
+}
+.about_us{
+	width:1200px;
+	float:left;
+	min-height:412px;
+	margin-left:24px;
+	margin-top:9px;
+}
+.about_us
+h1{
+	font-size:21px;
+	font-family: 'MyriadProRegular';
+	color:black;
+}
+.about_us
+p{
+	font-size:15px;
+	font-family: tahoma;
+	text-align:justify;
+	color:#757474;
+}
+.contact_us {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 13px;
+    margin-top: 10px;
+	width: 316px !important;
+}
+.contact_us h1 {
+    border-bottom: 2px solid #5b5b50;
+    color: #3c3c34;
+    font-family: "MyriadProRegular";
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.contact_form input {
+    border: 1px solid #cccccc;
+    color: #3c3c34;
+    height: 28px;
+	width: 308px !important;
+    margin-bottom: 9px;
+    padding-left: 7px;
+}
+.contact_form textarea {
+    border: 1px solid #cccccc;
+    color: #3c3c34;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+.contact_submit {
+    border-radius: 2px;
+    margin-top: 9px;
+    padding-top: 3px;
+}
+.contact_form textarea {
+    border: 1px solid #cccccc;
+    color: #3c3c34;
+    padding-left: 7px;
+	width:308px;
+    padding-top: 3px;
+}
+.contact_submit input {
+    background-color: #707070;
+    border: medium none !important;
+    border-radius: 2px;
+    color: white;
+    height: 27px;
+	cursor:pointer;
+    width: 100px !important;
+}
+.contact_submit input:hover{
+	color:black;
+}
+.contact_address {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 21px;
+    margin-top: 10px;
+    width: 263px;
+}
+.contact_address h1 {
+    border-bottom: 2px solid #5b5b50;
+    color: #3c3c34;
+    font-family: "MyriadProRegular";
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.contact_address p {
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+}
+#loc{
+	font-weight:bold;
+	font-size:17px;
+}
+.map{
+	float:right;
+	margin-top:12px;
+}
+.map
+h1{
+	  border-bottom: 2px solid #5b5b50;
+    color: #3c3c34;
+    font-family: "MyriadProRegular";
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 8px
+}
+.product_box{
+	float:left;
+	width:579px;
+	min-height:252px;
+	margin-bottom:14px;
+	margin-right:19px;
+	border:1px solid #d5d5d5;
+}
+
+.productimg1 {
+    float: left;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.product_des{
+	float:left;
+	margin-top:8px;
+	margin-left:22px;
+}
+.product_des
+h1{
+	 color: #3c3c34;
+	 margin:0;
+    font-family: "MyriadProRegular";
+    font-size: 21px;
+}
+.product_des ul li{
+	list-style:none;
+	color:#585858;
+	font-family:tahoma;
+	line-height:18px;
+	font-size:13px;
+}
+.readmore {
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 211px;
+    margin-top: 8px;
+    width: 122px;
+}
+.readmore
+a{
+	text-decoration:none;
+	font-size:14px;
+	font-family:tahoma;
+}
+
+/*====================================================Light Box css=========================================================*/
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#fff; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox{outline:0;}
+    #cboxContent{margin-top:32px; overflow:visible; background:#000;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{background:#000; padding:1px;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxTitle{position:absolute; top:-22px; left:0; color:#000; top:-28px; font-family:tahoma; font-size:21px;}
+        #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; text-indent:-9999px; width:20px; height:20px; position:absolute; top:-20px; background:url("../images/controls.png") no-repeat 0 0;}
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxPrevious{background-position:0px 0px; right:44px;}
+        #cboxPrevious:hover{background-position:0px -25px;}
+        #cboxNext{background-position:-25px 0px; right:22px;}
+        #cboxNext:hover{background-position:-25px -25px;}
+        #cboxClose{background-position:-50px 0px; right:0;}
+        #cboxClose:hover{background-position:-50px -25px;}
+        .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+        .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+        .cboxSlideshow_on #cboxSlideshow:hover{background-position:-100px -25px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+        .cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}
+.label2{
+	float:left;
+	color:#3c3c34;
+	font-family:tahoma;
+	font-size:16px;
+	padding-right:27px;
+	width:300px;
+}
+.registration_form {
+    float: left;
+    width: 660px;
+}
+.registration_form input {
+    border: 1px solid #cccccc;
+    color: #3c3c34;
+    height: 26px;
+	margin-top:3px;
+    margin-bottom: 9px;
+    padding-left: 7px;
+    width: 308px !important;
+}
+.registration_form textarea {
+    border: 1px solid #cccccc;
+    color: #3c3c34;
+	height: 26px;
+	margin-top:3px;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+.registration_form select {
+    border: 1px solid #cccccc;
+    color: #3c3c34;
+	height: 30px;
+	margin-bottom:9px;
+	margin-top:3px;
+    padding-left: 7px;
+    padding-top: 3px;
+	 width: 308px !important;
+}
+.sendbtn {
+    float: left;
+    margin-top: 19px;
+}
+.sendbtn input {
+    border: 1px solid #626262;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 36px;
+    width: 96px !important;
+}
+.button1 {
+    background-color:#707070;
+    padding: 6px;
+}
+.sendbtn input:hover {
+    color: black;
+    transition: color 850ms ease 0s !important;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float:left;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.sliderwrap{width:1252px; height:420px; float:left; background:#fbffef; border:1px solid #dcca9d; border-top:none; position:relative;}
+.slidbox{width:340px; height:auto; background:#252525; position:absolute; top:0px; right:80px; z-index:100000;}
+.slidbox p{font-size:12px; color:#a3a3a3; width:291px; margin: 0 auto; text-align:justify;}
+.slidbox a{background:#ed008c; width:340px; height:30px; line-height:30px; text-align:center; text-decoration:none; color:#fff; font-size:21px; float:left; border-top:1px solid #fff; margin-top:19px;}
+.slidbox a:hover{background:#009f94;}
+
+#slideshow {position:relative; height:420px; width:1252px;}
+#slideshow IMG {position:absolute; top:0; left:0; z-index:8; opacity:0.0;}
+#slideshow IMG.active {z-index:10; opacity:1.0;}
+#slideshow IMG.last-active {z-index:9;}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
